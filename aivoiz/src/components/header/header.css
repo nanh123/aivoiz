@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 !important;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; 
+}
+
+.menu {
+    margin-right: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+    width: fit-content;
+}
+
+.navbar li:hover {
+    color: black;
+    transform: translateY(-3px);
+    font-weight: bolder;
+}
+

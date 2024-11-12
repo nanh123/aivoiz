@@ -1,0 +1,17 @@
+.bgFooter {
+    background-color: #ff9900;
+}
+
+.footer {
+    margin: 0 15%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer .logo img {
+    width: 250px;
+}
