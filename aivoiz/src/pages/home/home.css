@@ -1,0 +1,259 @@
+.homeBody {
+    margin: 0 20%;
+}
+
+.homeBody h1 {
+    font-size: 70px;
+    margin: 0;
+    color: #ff9900;
+}
+
+/* opening */
+.homeBody .open .name {
+    color: #ff9900;
+}
+
+.homeBody .open {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 0;
+}
+
+.homeBody .open .text {
+    flex: 4;
+}
+
+.homeBody .open .img {
+    flex: 3;
+}
+
+.homeBody .img img {
+    width: 100%;
+}
+
+/* sample */
+.homeBody .sample {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin: 10px 0;
+    align-items: baseline;
+    margin-bottom: 50px;
+}
+
+.homeBody .sample p,
+.btnDemo {
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.homeBody .sample button {
+    padding: 10px 35px;
+    border: gray solid 1px;
+    cursor: pointer;
+}
+
+.homeBody .sample button:hover {
+    background-color: #ff9900;
+    color: white;
+}
+
+/* Changer */
+.changer p {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.changer span {
+    color: #666666;
+    font-size: 13.0pt;
+}
+
+.changer h2 {
+    font-size: 24.0pt;
+    color: #ff9900;
+}
+
+.changer .tableCompare {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.changer .tableCompare li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+
+/* ready */
+.ready {
+    margin-bottom: 50px;
+}
+
+.ready .expertise {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1000px;
+    padding: 0;
+    margin-left: 300px;
+}
+
+.ready .expertise li {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.ready p span {
+    font-size: 35px;
+    color: #ff9900;
+    font-weight: bold;
+}
+
+/* Experience */
+.exp h2 {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.exp .text .Exptitle {
+    color: #ff9900;
+}
+
+.exp .text .title {
+    color: #ff9900;
+    font-size: 13.0pt;
+    font-weight: bold;
+}
+
+.exp .text p {
+    margin: 0;
+}
+
+.exp .text .entry {
+    margin-bottom: 40px;
+}
+
+.exp .text .entry b {
+    color: #666666;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+}
+
+.exp .text {
+    flex: 4;
+}
+
+.exp .img {
+    flex: 4;
+}
+
+/* Reason */
+.reason {
+    margin-top: 50px;
+}
+
+.reason h2 {
+    font-size: 35px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.reason .title span {
+    color: #ff9900;
+}
+
+.reason .tableReason {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.reason .tableReason li {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.reason .tableReason li p {
+    font-weight: bolder;
+    color: #434343;
+}
+
+/* understandCustomer*/
+.understandCustomer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.understandCustomer .imgFounder {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.understandCustomer .imgFounder {
+    flex: 3;
+}
+
+.understandCustomer .imgFounder img {
+    width: 100%;
+}
+
+.understandCustomer .text {
+    flex: 4;
+}
+
+.understandCustomer .text p {
+    color: #666666;
+}
+
+.understandCustomer .text b {
+    color: #666666;
+}
+
+/* Partner */
+.partner {
+    margin-bottom: 50px;
+}
+
+.partner .title p {
+    color: #ff9900;
+}
+
+.partner .btn {
+    margin-top: 50px;
+}
+
+.partner .btn button {
+    background-color: transparent;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 12.0pt;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.partner .btn button:hover {
+    background-color: #ff9900;
+    color: white;
+}
