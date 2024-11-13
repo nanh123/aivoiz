@@ -7,6 +7,10 @@
     padding: 20px;
 }
 
+.header a {
+    color: black;
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -40,3 +44,12 @@
     font-weight: bolder;
 }
 
+.navLink {
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+}
+
+.active {
+    font-weight: bold;
+}

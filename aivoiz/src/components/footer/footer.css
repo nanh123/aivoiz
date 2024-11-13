@@ -1,5 +1,6 @@
 .bgFooter {
     background-color: #ff9900;
+    width: 100%;
 }
 
 .footer {
@@ -13,5 +14,5 @@
 }
 
 .footer .logo img {
-    width: 250px;
+    width: 100px;
 }
